@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagenes/Garza.png">
+    <link rel="stylesheet" href="estilos.css"/>
+    <title>Web Page Security, Phishing and SQL Injections</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <H1><i>Web Page Security, Phishing and SQL Injections</i></H1>
+        </header>
+        <nav>
+            <section>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Start
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="Seguridad en Páginas Web.html">
+                            Web Page Security
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="Phishing.html">
+                            Phishing
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="Inyecciones SQL.html">
+                            SQL Injections
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="Actividad.html">
+                            Exercise
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <br>
+            <br>
+
+            <h2><center>Web Page Security</center></h2>
+            <p> The purpose of web security is to prevent attacks of any kind. More formally, security is the action/practice of protecting websites from unauthorized access, use, modification, destruction or interruption.
+            <br>
+            <br>
+            Effective website security requires design efforts throughout the entire website: in your web application, in your web server configuration, in your policies for creating and renewing passwords, and in your client-side code.</p>
+            <center><img src="Material/seguridad-en-la-web.png" height="200px" aling="center"></center>
+            --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <br>
+            <br>
+            <h2><center>Website security threats</center></h2>
+            <br>
+            <center><h3>Cross Site Scripting (XSS)</h3></center>
+            <p>XSS is a term used to describe a class of attacks that allow the attacker to inject client-side scripts, through the website, into other users' browsers. Since the injected code goes from the site's server to the browser, it is assumed to be trusted, and hence can do things like send the attacker the authorization cookie to the user's site. Once the attacker has the cookie they can log into the site as if they were the real user and do anything the real user can do. Depending on which site it is, this could include accessing your credit card details, viewing contact details or changing passwords, etc.</p>
+            <center><img src="Material/XSS tabla.png" height="200px" aling="center"></center>
+
+            <p>The best defense against XSS vulnerabilities is to remove or disable any tags that might contain instructions to execute code. In the case of HTML this includes tags like "script", "object", "embed", y "link".
+            <br>
+            <br>
+            The process of modifying user data in such a way that it cannot be used to run scripts or otherwise affects the execution of server code is known as "input sanitization."</p>
+            <center><img src="Material/XSS.png" height="200px" aling="center"></center>
+            <br>
+
+            <footer>
+                Autonomous University of the State of Hidalgo ESTi &copy; 2022
+            </footer>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background: #F8B688;
+font-family: Arial, Helvetica, sans-serif;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+h2{
+    text-align: justify;
+}
+#container{
+width: 1100px;
+margin: 0px auto;
+border: 1px solid black;
+}
+
+.article{
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-bottom: 10px;
+border-bottom: 10px;
+
+}
+header{
+    background: #E8641C;
+    height: 200%;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+}
+
+nav{
+    background: #F39200;
+    border-bottom: 1px #F8B688;
+}
+nav a{
+    display:block;
+color:black;
+font-size:18px;
+line-height: 30px;
+text-decoration:none;
+}
+nav a:hover { 
+    background-color: #F8B688;
+    }
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    padding: 20px;
+    text-align: left;
+    float: left;
+    width: 100% -20px;
+    background: lightgrey;
+}
+footer{
+    background: #F39200;
+    color: black;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+}
+
+p{
+    padding: 30px;
+    text-align: justify;
+}
+
+.pdfview {
+    padding: 20px;
+    /* Centrado */
+    margin: auto;
+    display: block;
+    /* Tamaño */
+    width: 700px;
+    height: 90vh;
+    /* Mejorar aspecto */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}    
